@@ -1,0 +1,29 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.41.0",
+    "@nuxt/devtools": "latest",
+    "@sxzz/eslint-config": "^3.4.0",
+    "@types/node": "^18.17.3",
+    "@unocss/nuxt": "^0.55.2",
+    "@vueuse/core": "^10.3.0",
+    "@vueuse/nuxt": "^10.3.0",
+    "eslint": "^8.47.0",
+    "nuxt": "^3.6.5"
+  },
+  "dependencies": {
+    "@heroicons/vue": "^2.0.18",
+    "@unocss/reset": "^0.55.2",
+    "class-variance-authority": "^0.7.0",
+    "dayjs": "^1.11.9",
+    "valibot": "^0.13.1"
+  }
+}
